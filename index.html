@@ -1,30 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Simple Face Detection</title>
-  <script defer src="face-api.min.js"></script>
-  <script defer src="script.js"></script>
-  <style>
-      body {
-          margin: 0;
-          padding: 0;   
-          width: 100vw;
-          height: 100vh;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-      }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Simple Face Recognition</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header align=center>Change your facial expression</header>
+    <div class="container">
+      <video id="video" height="500" width="500" autoplay muted></video>
+    </div>
+    <div class="result-container">
+      <div id="emotion">Emotion</div>
+      <div id="gender">Gender</div>
+      <div id="age">Age</div>
+    </div>
 
-      canvas {
-          position: absolute;
-      }
+    <script src="./face-api.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+  <footer align=center>Developed by <a href="mailto:mail2zubaer@gmail.com" target="_top"> Zubaer Ahmad</a></footer>
 
-  </style>
-</head>
-<body>
-    <video id="video" width="720" height="560" autoplay muted></video>
-</body>
 </html>
