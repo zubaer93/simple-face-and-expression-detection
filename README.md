@@ -5,7 +5,7 @@ https://zubaer93.github.io/simple-face-and-expression-detection/
 
 A simple javascript realtime facial recognition app.
 
-- Using faceapi.js api and models for recognition
+- Using face-api.js models for recognition
 - Can recognize face, landmarks, expressions and gender.
 - Based on landmark and expression age is predicted
 
